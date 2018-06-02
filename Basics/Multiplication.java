@@ -1,6 +1,6 @@
 public class Multiplication{
 
- public static int um(int i, int b){
+ public static int sum(int i, int b){
   int sum= i * b;
 return(sum);
  }
