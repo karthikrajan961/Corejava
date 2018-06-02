@@ -1,11 +1,11 @@
 public class Calculator{
 
- public static int sum(int i, int j){
+ public int sum(int i, int j){
    int sum = i + j;
    return(sum);
  }
 
- public static int diff(int i, int j){
+ public int diff(int i, int j){
   int diff = i - j;
   return(diff);
  }
@@ -21,13 +21,14 @@ public class Calculator{
  }
 
   public static void main(String[] args){
-   int k=sum(10,5);
-   int l=diff(10,5);
-   int m=div(10,5);
-   int n=prod(10,5);
-   System.out.println("Sum ="+k);
-   System.out.println("DIfference ="+l);
-   System.out.println("Dividend ="+m);
-   System.out.println("Product ="+n);
+  Calculator calc= new Calculator();
+     	int k=calc.sum(10,5);
+   	int l=calc.diff(10,5);
+   	int m=div(10,5);
+   	int n=prod(10,5);
+ 	System.out.println("Sum ="+k);
+   	System.out.println("DIfference ="+l);
+   	System.out.println("Dividend ="+m);
+   	System.out.println("Product ="+n);
 }
 }
