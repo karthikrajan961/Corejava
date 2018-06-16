@@ -1,4 +1,4 @@
-public class FuelMainClass{
+public class FuelMainclass{
 public static void main(String[] args){
 
 Fuel petrol = new Fuel();
